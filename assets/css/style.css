@@ -4,3 +4,6 @@ body {
     font-family: "Courier New", monospace; /* Monospaced font for retro feel */
     padding: 20px; /* Page padding */
 }
+h1 {
+    color: #fcd34d; /* Bright yellow text */
+}
