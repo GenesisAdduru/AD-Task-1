@@ -7,3 +7,9 @@ body {
 h1 {
     color: #fcd34d; /* Bright yellow text */
 }
+.block {
+    background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    border-left: 5px solid #facc15; /* Accent border */
+    padding: 15px;
+    margin-bottom: 20px;
+}
