@@ -41,6 +41,9 @@ for ($i = 0; $i < 7; $i++) {
 }
 echo "</div>";
 
+echo "<a href='/page/index.php'>✈️ Travel Safety Tips</a>";
+?>
+
 ?>
 </body>
 </html>
