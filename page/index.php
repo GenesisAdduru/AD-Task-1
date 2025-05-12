@@ -26,5 +26,10 @@ $dailyTips = array(
     "Sketch something — even if badly!",
     "Walk without a map for 20 minutes."
 );
-
+echo "<div class='block'>";
+echo "🧭 <strong>Today's Mood:</strong> <em>" . $travelMoods[rand(0, count($travelMoods) - 1)] . "</em><br>";
+echo "📌 <strong>Daily Tip:</strong> " . $dailyTips[rand(0, count($dailyTips) - 1)] . "<br>";
+echo "📝 <strong>Quote of the Day:</strong><br><em>“" . $travelQuotes[rand(0, count($travelQuotes) - 1)] . "”</em>";
+echo "</div>";
+?>
 </html>
