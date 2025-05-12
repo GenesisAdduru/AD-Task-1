@@ -1,0 +1,6 @@
+body {
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Blue gradient background */
+    color: #ffffff; /* White text color */
+    font-family: "Courier New", monospace; /* Monospaced font for retro feel */
+    padding: 20px; /* Page padding */
+}
