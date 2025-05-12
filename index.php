@@ -44,6 +44,6 @@ echo "</div>";
 echo "<a href='/page/index.php'>✈️ Travel Safety Tips</a>";
 ?>
 
-?>
+
 </body>
 </html>

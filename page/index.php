@@ -52,5 +52,5 @@ echo "</ul></div>";
 echo "<a href='/index.php'>← Back to Dashboard</a>";
 ?>
 
-?>
+
 </html>
