@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>WeatherWanderer - Travel Forecast</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
