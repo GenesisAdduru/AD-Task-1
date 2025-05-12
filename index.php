@@ -18,6 +18,10 @@ for ($i = 0; $i < 7; $i++) {
     $weekForecast[] = $weatherOptions[$randomIndex];
 }
 
+echo "<div class='block'>";
+echo "Destination: <strong>$destination</strong><br>";
+echo "Here's your 7-day weather forecast:<br><br>";
+
 ?>
 </body>
 </html>
