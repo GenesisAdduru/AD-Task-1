@@ -49,6 +49,8 @@ for ($i = 0; $i < count($tips); $i++) {
 }
 
 echo "</ul></div>";
+echo "<a href='/index.php'>← Back to Dashboard</a>";
+?>
 
 ?>
 </html>
