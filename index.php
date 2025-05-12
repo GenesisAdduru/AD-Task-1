@@ -12,6 +12,12 @@
 $destination = "🧥Baguio City🍓";
 $weatherOptions = array("Sunny", "Cloudy", "Rainy", "Stormy");
 $weekForecast = array();
+
+for ($i = 0; $i < 7; $i++) {
+    $randomIndex = rand(0, count($weatherOptions) - 1);
+    $weekForecast[] = $weatherOptions[$randomIndex];
+}
+
 ?>
 </body>
 </html>
