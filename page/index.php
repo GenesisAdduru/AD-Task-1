@@ -31,5 +31,24 @@ echo "🧭 <strong>Today's Mood:</strong> <em>" . $travelMoods[rand(0, count($tr
 echo "📌 <strong>Daily Tip:</strong> " . $dailyTips[rand(0, count($dailyTips) - 1)] . "<br>";
 echo "📝 <strong>Quote of the Day:</strong><br><em>“" . $travelQuotes[rand(0, count($travelQuotes) - 1)] . "”</em>";
 echo "</div>";
+echo "<div class='block'>";
+echo "<h2>✅ Safety Checklist</h2><ul>";
+
+$tips = array(
+    "Always check the weather before leaving.",
+    "Keep emergency contacts written down.",
+    "Carry a small first-aid kit.",
+    "Hydrate often and eat light meals.",
+    "Stay informed about local conditions.",
+    "Use sunblock during sunny days.",
+    "Avoid travel during strong storms."
+);
+
+for ($i = 0; $i < count($tips); $i++) {
+    echo "<li>📍 " . $tips[$i] . "</li>";
+}
+
+echo "</ul></div>";
+
 ?>
 </html>
