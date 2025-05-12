@@ -8,6 +8,10 @@
 
 <h1>🌍 WeatherWanderer Dashboard</h1>
 
-
+<?php
+$destination = "🧥Baguio City🍓";
+$weatherOptions = array("Sunny", "Cloudy", "Rainy", "Stormy");
+$weekForecast = array();
+?>
 </body>
 </html>
