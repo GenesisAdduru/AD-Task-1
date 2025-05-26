@@ -1,0 +1,15 @@
+{
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ramir\\PhpPages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adduru",
+            "email": "test@gmail.com"
+        }
+    ],
+    "require": {}
+}
